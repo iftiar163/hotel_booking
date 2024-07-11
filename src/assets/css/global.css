@@ -1,0 +1,115 @@
+:root {
+	--primary-color: #262626;
+	--secondary-color: #fe6927;
+	--background-color: #1c2534;
+	--text-color: #828282;
+	--light-orange: #fbcfbb;
+	--secondary-text: #d1d1d1;
+	--footer-text-color: #373737;
+}
+
+@font-face {
+	font-family: "HK Grotesk";
+	src: url("../fonts/HKGrotesk/ttf/HKGrotesk-Light.ttf") format("ttf"),
+		url("../fonts/HKGrotesk/woff/HKGrotesk-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "HK Grotesk";
+	src: url("../fonts/HKGrotesk/ttf/HKGrotesk-Regular.ttf") format("ttf"),
+		url("../fonts/HKGrotesk/woff/HKGrotesk-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "HK Grotesk";
+	src: url("../fonts/HKGrotesk/ttf/HKGrotesk-Medium.ttf") format("ttf"),
+		url("../fonts/HKGrotesk/woff/HKGrotesk-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "HK Grotesk";
+	src: url("../fonts/HKGrotesk/ttf/HKGrotesk-SemiBold.ttf") format("ttf"),
+		url("../fonts/HKGrotesk/woff/HKGrotesk-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "HK Grotesk";
+	src: url("../fonts/HKGrotesk/ttf/HKGrotesk-Bold.ttf") format("ttf"),
+		url("../fonts/HKGrotesk/woff/HKGrotesk-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "HK Grotesk";
+	src: url("../fonts/HKGrotesk/ttf/HKGrotesk-ExtraBold.ttf") format("ttf"),
+		url("../fonts/HKGrotesk/woff/HKGrotesk-ExtraBold.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+}
+
+body {
+	font-family: "HK Grotesk", sans-serif;
+	background: #f5f5f5;
+}
+
+h2 {
+	font-family: "HK Grotesk", sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 90px;
+}
+
+h3 {
+	font-family: "HK Grotesk", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+h4 {
+	font-family: "HK Grotesk", sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 40px;
+}
+
+h5 {
+	font-family: "HK Grotesk", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+@media screen and (max-width: 600px) {
+	h2 {
+		font-size: 48px;
+		line-height: 80px;
+	}
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}

@@ -1,0 +1,14 @@
+/* Header Design Start */
+header {
+	background: var(--background-color);
+}
+
+.logo img {
+	width: 30%;
+}
+
+.login-button button {
+	padding: 10px 24px;
+	border-radius: 16px;
+	background: var(--secondary-color);
+}
