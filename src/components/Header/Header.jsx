@@ -6,7 +6,7 @@ const Header = () => {
 		<>
 			<header>
 				{/* Desktop Version */}
-				<div className="container mx-auto grid grid-cols-3 py-5 items-center">
+				<div className="w-[1280px] mx-auto grid grid-cols-3 py-5 items-center">
 					<div className="logo">
 						<Link to={"/"}>
 							<img

@@ -1,3 +1,11 @@
+/* 
+
+container with :
+wwith : 1280px
+
+
+*/
+
 :root {
 	--primary-color: #262626;
 	--secondary-color: #fe6927;
@@ -87,6 +95,13 @@ h5 {
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 30px;
+}
+
+p {
+	font-family: "HK Grotesk";
+	font-size: 18px;
+	font-weight: 400;
+	color: var(--text-color);
 }
 
 @media screen and (max-width: 600px) {
