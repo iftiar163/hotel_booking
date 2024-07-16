@@ -1,5 +1,6 @@
 import HeroArea from "./HeroArea";
 import "./Home.css";
+import SearchForms from "./SearchForms";
 import TripLocation from "./TripLocation";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
 		<>
 			<HeroArea />
 			<TripLocation />
+			<SearchForms />
 		</>
 	);
 };
