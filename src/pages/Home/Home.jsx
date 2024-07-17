@@ -2,6 +2,7 @@ import HeroArea from "./HeroArea";
 import "./Home.css";
 import SearchForms from "./SearchForms";
 import TripLocation from "./TripLocation";
+import WhyChooseUs from "./WhyChooseUs";
 
 const Home = () => {
 	return (
@@ -9,6 +10,7 @@ const Home = () => {
 			<HeroArea />
 			<TripLocation />
 			<SearchForms />
+			<WhyChooseUs />
 		</>
 	);
 };
