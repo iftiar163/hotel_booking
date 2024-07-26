@@ -9,7 +9,7 @@ const SearchForms = () => {
 		<>
 			{/* Search Form Elements */}
 
-			<div className="search-form-wrapper w-[1280px] mx-auto">
+			<div className="search-form-wrapper lg:w-[1280px] md:w-[768px] sm:w-[425px] mx-auto">
 				<div className="search-heading-wrapper flex justify-between items-center">
 					<div className="search-head flex justify-between items-center gap-5">
 						<MdOutlineMyLocation />
@@ -28,7 +28,7 @@ const SearchForms = () => {
 					/>
 				</div>
 				{/* Search Form */}
-				<div className="search-form-body flex content-center items-center gap-2">
+				<div className="search-form-body flex lg:flex-row md:flex-col sm:flex-col content-center items-center gap-2">
 					<div className="form-box flex flex-col gap-2">
 						<label htmlFor="">Destination</label>
 						<div className="icons flex">

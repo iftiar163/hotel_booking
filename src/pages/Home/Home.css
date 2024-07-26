@@ -253,4 +253,44 @@
 	padding: 100px 0;
 	background: var(--background-color);
 }
+
+.slider-heading-left h2 {
+	color: #fff;
+}
+
+.slider-heading-right p {
+	color: var(--secondary-text);
+}
+
+.review-card {
+	padding: 28px;
+	background: #263042;
+}
+
+.review-content svg {
+	fill: #fff;
+	font-size: 30px;
+}
+
+.review-content p {
+	color: var(--secondary-text);
+}
+
+.author-box img {
+	width: 15%;
+}
+
+.author-box h5 {
+	color: #fff;
+}
+
+.like-box svg {
+	fill: #fff;
+	font-size: 20px;
+}
+
+.like-box h5 {
+	color: var(--secondary-text);
+	font-weight: 300;
+}
 /* Customer Review End */

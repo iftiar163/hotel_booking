@@ -9,7 +9,7 @@ const Footer = () => {
 	return (
 		<>
 			<footer>
-				<div className="w-[1280px] mx-auto grid grid-cols-5">
+				<div className="lg:w-[1280px] md:w-[768px] sm:w-[425px] mx-auto grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2">
 					{/* Footer Logo */}
 					<div className="w-[200px] footer-logo flex flex-col gap-4">
 						<Link>
@@ -156,7 +156,7 @@ const Footer = () => {
 					</div>
 				</div>
 				{/* Copyright Block */}
-				<div className="w-[1280px] mx-auto copyrigh-claims flex flex-row items-center justify-center">
+				<div className="lg:w-[1280px] md:w-[768px] sm:w-[425px] mx-auto copyrigh-claims flex flex-row items-center justify-center">
 					<p>&copy; 2024 Design & Develop By Iftiar Hossain</p>
 				</div>
 			</footer>

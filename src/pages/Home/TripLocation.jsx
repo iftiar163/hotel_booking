@@ -1,21 +1,23 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 import "swiper/css/autoplay";
 
 const TripLocation = () => {
 	return (
 		<>
 			<section className="hero-slider-section">
-				<div className="slider-box w-[1280px] mx-auto">
+				<div className="slider-box lg:w-[1280px] md:w-[768px] sm:w-[425px] mx-auto">
 					<Swiper
-						modules={[Autoplay]}
+						modules={[Autoplay, Navigation]}
 						autoplay={{ delay: 5000 }}
 						spaceBetween={50}
 						slidesPerView={4}
+						navigation={true}
 						breakpoints={{
 							400: {
 								slidesPerView: 1,

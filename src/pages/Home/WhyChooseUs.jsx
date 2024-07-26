@@ -3,7 +3,7 @@ const WhyChooseUs = () => {
 		<>
 			<section className="why-choose-us">
 				{/* Why Choose Heading */}
-				<div className="why-choose-heading w-[1280px] mx-auto flex flex-col justify-center items-center gap-3">
+				<div className="why-choose-heading lg:w-[1280px] md:w-[768px] sm:w-[425px] mx-auto flex flex-col justify-center items-center gap-3">
 					<h2>Why You Should Choose Us</h2>
 					<p>
 						You should choose us because we provide the best accommodation and
@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
 					</p>
 				</div>
 				{/* Why Choose Content */}
-				<div className="why-choose-content my-5 w-[1280px] mx-auto flex flex-row">
+				<div className="why-choose-content my-5 lg:w-[1280px] md:w-[768px] sm:w-[425px] mx-auto flex lg:flex-row md:flex-col sm:flex-col">
 					{/* Left Container */}
 					<div className="left-container w-1/2 flex flex-col gap-7">
 						{/* Box One */}

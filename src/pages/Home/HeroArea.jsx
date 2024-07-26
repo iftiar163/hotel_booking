@@ -6,7 +6,7 @@ const HeroArea = () => {
 			{/* Hero Section */}
 			<section className="hero-section">
 				{/* Hero Section Heading */}
-				<div className="hero-heading w-[1280px] mx-auto grid grid-cols-2">
+				<div className="hero-heading lg:w-[1280px] md:w-[768px] sm:w-[425px] mx-auto grid lg:grid-cols-2 md:grid-cols-2">
 					<div className="heading-col text-white">
 						<h2>Discover The Best Hotels & Resorts to Stay</h2>
 					</div>
