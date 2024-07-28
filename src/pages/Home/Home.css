@@ -48,6 +48,32 @@
 	color: var(--secondary-text);
 }
 
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.hero-section {
+		padding: 80px 15px 40px 15px;
+	}
+
+	.hero-slider-section {
+		padding: 0 15px 200px;
+	}
+}
+
+/* Mobile Device */
+@media screen and (max-width: 600px) {
+	.hero-section {
+		padding: 80px 15px 65px 15px;
+	}
+
+	.hero-slider-section {
+		padding: 0 15px 200px 15px;
+	}
+
+	.slider-image img {
+		height: 385px;
+	}
+}
+
 /* Hero Area Design End */
 
 /* Search Form Start */
@@ -104,6 +130,22 @@
 	font-size: 18px;
 	font-weight: 500;
 }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Mobile Device */
+@media screen and (max-width: 600px) {
+	.search-form-wrapper {
+		padding: 30px 24px;
+	}
+
+	.icons input {
+		width: 300px;
+	}
+}
+
 /* Search Form End */
 
 /* Why Choose Us Start */

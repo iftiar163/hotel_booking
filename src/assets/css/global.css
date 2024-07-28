@@ -105,6 +105,14 @@ p {
 	color: var(--text-color);
 }
 
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	h2 {
+		font-size: 50px;
+		line-height: 60px;
+	}
+}
+
 @media screen and (max-width: 600px) {
 	h2 {
 		font-size: 48px;

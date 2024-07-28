@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
@@ -13,23 +13,25 @@ const TripLocation = () => {
 			<section className="hero-slider-section">
 				<div className="slider-box lg:w-[1280px] md:w-[768px] sm:w-[425px] mx-auto">
 					<Swiper
-						modules={[Autoplay, Navigation]}
+						modules={[Autoplay]}
 						autoplay={{ delay: 5000 }}
-						spaceBetween={50}
 						slidesPerView={4}
-						navigation={true}
+						spaceBetween={50}
 						breakpoints={{
 							400: {
 								slidesPerView: 1,
+								spaceBetween: 20,
 							},
 							639: {
 								slidesPerView: 1,
 							},
 							768: {
 								slidesPerView: 2,
+								spaceBetween: 0,
 							},
 							1024: {
 								slidesPerView: 2,
+								spaceBetween: 0,
 							},
 							1500: {
 								slidesPerView: 4,
@@ -43,7 +45,7 @@ const TripLocation = () => {
 					>
 						{/* Slider One */}
 						<SwiperSlide>
-							<div className="slider-card w-[273px] flex flex-col gap-5">
+							<div className="slider-card lg:w-[273px] md:w-[300px] sm:w-[400px] flex flex-col gap-5">
 								<div className="slider-content flex flex-col gap-2">
 									<h3 className="text-white">Grand Aston Hotel</h3>
 									<p>Start from $1,098/night</p>
@@ -58,7 +60,7 @@ const TripLocation = () => {
 						</SwiperSlide>
 						{/* Slider Two */}
 						<SwiperSlide>
-							<div className="slider-card w-[273px] flex flex-col gap-5">
+							<div className="slider-card lg:w-[273px] md:w-[300px] sm:w-[400px] flex flex-col gap-5">
 								<div className="slider-content flex flex-col gap-2">
 									<h3 className="text-white">Java Heritage Hotel</h3>
 									<p>Start from $1,098/night</p>
@@ -73,7 +75,7 @@ const TripLocation = () => {
 						</SwiperSlide>
 						{/* Slider Three */}
 						<SwiperSlide>
-							<div className="slider-card w-[273px] flex flex-col gap-5">
+							<div className="slider-card lg:w-[273px] md:w-[300px] sm:w-[400px] flex flex-col gap-5">
 								<div className="slider-content flex flex-col gap-2">
 									<h3 className="text-white">Nihi Sumba Resort</h3>
 									<p>Start from $1,098/night</p>
@@ -88,7 +90,7 @@ const TripLocation = () => {
 						</SwiperSlide>
 						{/* Slider Four */}
 						<SwiperSlide>
-							<div className="slider-card w-[273px] flex flex-col gap-5">
+							<div className="slider-card lg:w-[273px] md:w-[300px] sm:w-[400px] flex flex-col gap-5">
 								<div className="slider-content flex flex-col gap-2">
 									<h3 className="text-white">Bobocabin Kintamani</h3>
 									<p>Start from $1,098/night</p>
@@ -103,7 +105,7 @@ const TripLocation = () => {
 						</SwiperSlide>
 						{/* Slider Five */}
 						<SwiperSlide>
-							<div className="slider-card w-[273px] flex flex-col gap-5">
+							<div className="slider-card lg:w-[273px] md:w-[300px] sm:w-[400px] flex flex-col gap-5">
 								<div className="slider-content flex flex-col gap-2">
 									<h3 className="text-white">Java Heritage Hotel</h3>
 									<p>Start from $1,098/night</p>
@@ -118,7 +120,7 @@ const TripLocation = () => {
 						</SwiperSlide>
 						{/* Slider Six */}
 						<SwiperSlide>
-							<div className="slider-card w-[273px] flex flex-col gap-5">
+							<div className="slider-card lg:w-[273px] md:w-[300px] sm:w-[400px] flex flex-col gap-5">
 								<div className="slider-content flex flex-col gap-2">
 									<h3 className="text-white">Outdoor Resort</h3>
 									<p>Start from $1,098/night</p>
