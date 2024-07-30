@@ -18,7 +18,7 @@ const HotelList = () => {
 							{/* Feature Image */}
 							<div className="hotel-feature-image">
 								<img
-									src="https://res.cloudinary.com/dwrvexxbo/image/upload/v1721236506/Hotel_trividia/qnm7ni4go4joa7jmufib.jpg"
+									src="https://res.cloudinary.com/dwrvexxbo/image/upload/v1722359555/Hotel_trividia/mumtp1by4lyo56n14jgx.jpg"
 									alt=""
 								/>
 								<svg
@@ -82,7 +82,7 @@ const HotelList = () => {
 							{/* Feature Image */}
 							<div className="hotel-feature-image">
 								<img
-									src="https://res.cloudinary.com/dwrvexxbo/image/upload/v1721236506/Hotel_trividia/qnm7ni4go4joa7jmufib.jpg"
+									src="https://res.cloudinary.com/dwrvexxbo/image/upload/v1722359556/Hotel_trividia/zo93qt5vrbsvrp57nacq.jpg"
 									alt=""
 								/>
 								<svg
@@ -146,7 +146,7 @@ const HotelList = () => {
 							{/* Feature Image */}
 							<div className="hotel-feature-image">
 								<img
-									src="https://res.cloudinary.com/dwrvexxbo/image/upload/v1721236506/Hotel_trividia/qnm7ni4go4joa7jmufib.jpg"
+									src="https://res.cloudinary.com/dwrvexxbo/image/upload/v1722359556/Hotel_trividia/yvteoj5rrnkbuxfgdtph.jpg"
 									alt=""
 								/>
 								<svg
@@ -210,7 +210,7 @@ const HotelList = () => {
 							{/* Feature Image */}
 							<div className="hotel-feature-image">
 								<img
-									src="https://res.cloudinary.com/dwrvexxbo/image/upload/v1721236506/Hotel_trividia/qnm7ni4go4joa7jmufib.jpg"
+									src="https://res.cloudinary.com/dwrvexxbo/image/upload/v1722359563/Hotel_trividia/oip4dgjq5qxyhvei5l9c.jpg"
 									alt=""
 								/>
 								<svg
@@ -274,7 +274,7 @@ const HotelList = () => {
 							{/* Feature Image */}
 							<div className="hotel-feature-image">
 								<img
-									src="https://res.cloudinary.com/dwrvexxbo/image/upload/v1721236506/Hotel_trividia/qnm7ni4go4joa7jmufib.jpg"
+									src="https://res.cloudinary.com/dwrvexxbo/image/upload/v1722359557/Hotel_trividia/ibpxffuq1amcrgwbiguf.jpg"
 									alt=""
 								/>
 								<svg
