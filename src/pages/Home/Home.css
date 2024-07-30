@@ -49,7 +49,7 @@
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (max-width: 1024px) {
 	.hero-section {
 		padding: 80px 15px 40px 15px;
 	}
@@ -132,7 +132,7 @@
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (max-width: 1024px) {
 }
 
 /* Mobile Device */
@@ -199,6 +199,10 @@
 	border-radius: 26px;
 }
 
+.right-container {
+	margin-top: 45px;
+}
+
 .review-box-one {
 	position: absolute;
 	right: -58px;
@@ -239,6 +243,102 @@
 	color: var(--secondary-color);
 }
 
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 1024px) {
+	.why-choose-us {
+		padding: 80px 15px;
+	}
+
+	.why-choose-heading p {
+		width: 60%;
+	}
+
+	.right-container {
+		margin-top: 0px;
+	}
+
+	.main-image img {
+		width: 50%;
+	}
+
+	.review-box-three {
+		position: absolute;
+		right: 115px;
+		top: -20px;
+	}
+
+	.review-box-one {
+		right: 50px;
+		bottom: 55px;
+	}
+
+	.secondary-image {
+		left: 45px;
+	}
+}
+
+/* Mobile Device */
+@media (max-width: 600px) {
+	.why-choose-us {
+		padding: 80px 15px;
+	}
+
+	.why-choose-heading h2 {
+		text-align: center;
+	}
+
+	.why-choose-heading p {
+		width: 100%;
+	}
+
+	.right-container {
+		margin-top: 0px;
+	}
+
+	.main-image img {
+		width: 75%;
+		height: 500px;
+		margin-right: 40px;
+	}
+
+	.secondary-image {
+		width: 210px;
+		left: 0;
+	}
+
+	.secondary-image img {
+		width: 210px;
+		height: 150px;
+	}
+
+	.review-box-one {
+		right: 0px;
+		bottom: 28px;
+	}
+
+	.review-box-two {
+		left: 0;
+	}
+
+	.review-box-three {
+		right: 55px;
+		top: -20px;
+	}
+
+	.avater-image img {
+		height: 40px;
+		width: 40px;
+	}
+
+	.avater-content h6 {
+		font-size: 12px;
+	}
+
+	.avater-content p {
+		font-size: 10px;
+	}
+}
+
 /* Why Choose Us End */
 
 /* Hotel List Grid Start */
@@ -265,6 +365,20 @@
 	background: #fff;
 }
 
+.hotel-feature-image {
+	position: relative;
+	overflow: hidden;
+}
+
+.hotel-feature-image::before {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+}
+
 .hotel-feature-image img {
 	width: 100%;
 	height: 261px;
@@ -287,6 +401,28 @@
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 700;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 1024px) {
+	.hotel-list-section {
+		padding: 0 15px;
+	}
+
+	.hotel-list-heading p {
+		width: 65%;
+	}
+}
+
+/* Mobile Device */
+@media screen and (max-width: 600px) {
+	.hotel-list-heading h2 {
+		text-align: center;
+	}
+
+	.hotel-list-heading p {
+		width: 100%;
+	}
 }
 /* Hotel List Grid End */
 
@@ -334,5 +470,27 @@
 .like-box h5 {
 	color: var(--secondary-text);
 	font-weight: 300;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 1024px) {
+	.customer-review-section {
+		padding: 80px 15px 50px;
+	}
+}
+
+/* Mobile Device */
+@media screen and (max-width: 600px) {
+	.customer-review-section {
+		padding: 50px 15px;
+	}
+
+	.slider-heading-left h2 {
+		text-align: center;
+	}
+
+	.slider-heading-right p {
+		text-align: center;
+	}
 }
 /* Customer Review End */

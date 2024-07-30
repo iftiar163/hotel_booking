@@ -4,7 +4,7 @@ const HotelList = () => {
 			<section className="hotel-list-section">
 				<div className="hotel-wrapper">
 					{/* Hotel List Heading */}
-					<div className="hotel-list-heading lg:w-[1280px] md:w-[768px] sm:w-[425px] mx-auto flex flex-col justify-center items-center gap-3">
+					<div className="hotel-list-heading lg:w-[1280px] md:w-full sm:w-full mx-auto flex flex-col justify-center items-center gap-3">
 						<h2>The Best Hotels For You</h2>
 						<p>
 							These are some of the hotels that we highly recommend for you. we
@@ -13,7 +13,7 @@ const HotelList = () => {
 						</p>
 					</div>
 					{/* Hotel List Grid Items */}
-					<div className="hotel-list-items my-20 lg:w-[1280px] md:w-[768px] sm:w-[425px] mx-auto grid lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 gap-8">
+					<div className="hotel-list-items lg:my-20 md:my-10 sm:my-10 lg:w-[1280px] md:w-full sm:w-full mx-auto grid lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 lg:gap-8 md:gap-4 sm:gap-4">
 						<div className="hotel-card">
 							{/* Feature Image */}
 							<div className="hotel-feature-image">

@@ -9,9 +9,9 @@ const Footer = () => {
 	return (
 		<>
 			<footer>
-				<div className="lg:w-[1280px] md:w-[768px] sm:w-[425px] mx-auto grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2">
+				<div className="lg:w-[1280px] md:w-full sm:w-full mx-auto grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2">
 					{/* Footer Logo */}
-					<div className="w-[200px] footer-logo flex flex-col gap-4">
+					<div className="lg:w-[200px] md:w-full sm:w-full footer-logo flex flex-col gap-4">
 						<Link>
 							<img
 								src="https://res.cloudinary.com/dwrvexxbo/image/upload/v1720631089/Hotel_trividia/xwrnehvsmyebqujxjtlt.png"
@@ -45,7 +45,7 @@ const Footer = () => {
 						</div>
 					</div>
 					{/* Rooms Coloumn */}
-					<div className="w-[200px] footer-rooms">
+					<div className="lg:w-[200px] md:w-full sm:w-full footer-rooms">
 						<div className="links-heading">
 							<h5>Rooms</h5>
 						</div>
@@ -69,7 +69,7 @@ const Footer = () => {
 							</ul>
 						</div>
 					</div>
-					<div className="w-[200px] resource">
+					<div className="lg:w-[200px] md:w-full sm:w-full resource">
 						<div className="links-heading">
 							<h5>Resources</h5>
 						</div>
@@ -99,7 +99,7 @@ const Footer = () => {
 						</div>
 					</div>
 					{/* Company Links */}
-					<div className="w-[200px] cpmpany">
+					<div className="lg:w-[200px] md:w-full sm:w-full cpmpany">
 						<div className="links-heading">
 							<h5>Company</h5>
 						</div>
@@ -134,7 +134,7 @@ const Footer = () => {
 						</div>
 					</div>
 					{/* Newsletter Box */}
-					<div className="w-[250px] newsletter">
+					<div className="lg:w-[250px] md:w-full sm:w-full newsletter">
 						<div className="links-heading">
 							<h5>Newsletter</h5>
 						</div>
@@ -156,7 +156,7 @@ const Footer = () => {
 					</div>
 				</div>
 				{/* Copyright Block */}
-				<div className="lg:w-[1280px] md:w-[768px] sm:w-[425px] mx-auto copyrigh-claims flex flex-row items-center justify-center">
+				<div className="lg:w-[1280px] md:w-full sm:w-full mx-auto copyrigh-claims flex flex-row items-center justify-center">
 					<p>&copy; 2024 Design & Develop By Iftiar Hossain</p>
 				</div>
 			</footer>

@@ -1,6 +1,6 @@
 /* Footer Design Start */
 footer {
-	padding: 50px 0;
+	padding: 50px 0 25px;
 }
 
 .footer-logo img {
@@ -45,11 +45,32 @@ footer {
 }
 
 .copyrigh-claims {
-	padding: 50px 10px;
+	padding: 50px 10px 25px;
 }
 
 .copyrigh-claims p {
 	font-size: 16px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 1024px) {
+	footer {
+		padding: 50px 15px;
+	}
+
+	.copyrigh-claims {
+		padding: 0px 10px;
+	}
+}
+
+/* Mobile Device */
+@media screen and (max-width: 600px) {
+	footer {
+		padding: 50px 15px 25px;
+	}
+	.copyrigh-claims {
+		padding: 25px 0px 0;
+	}
 }
 
 /* Footer Design End */

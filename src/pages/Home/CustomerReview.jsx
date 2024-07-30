@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import { FaQuoteLeft } from "react-icons/fa6";
 import { AiFillLike } from "react-icons/ai";
 
@@ -14,7 +14,7 @@ const CustomerReview = () => {
 		<>
 			<section className="customer-review-section">
 				<div className="customer-review-wrapper">
-					<div className="customer-review-heading lg:w-[1280px] md:w-[768px] sm:w-[425px] mx-auto grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+					<div className="customer-review-heading lg:w-[1280px] md:w-full sm:w-full mx-auto grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
 						<div className="slider-heading-left">
 							<h2>What Our Customers Say About Nginep?</h2>
 						</div>
@@ -27,12 +27,11 @@ const CustomerReview = () => {
 						</div>
 					</div>
 					{/* Review Slider */}
-					<div className="review-slider-wrapper lg:w-[1280px] md:w-[768px] sm:w-[425px] mx-auto my-16">
+					<div className="review-slider-wrapper lg:w-[1280px] md:w-full sm:w-full mx-auto lg:my-16 md:my-16 sm:my-10">
 						<Swiper
-							modules={[Autoplay, Navigation]}
+							modules={[Autoplay]}
 							autoplay={{ delay: 5000 }}
 							spaceBetween={50}
-							navigation={true}
 							slidesPerView={3}
 							breakpoints={{
 								400: {

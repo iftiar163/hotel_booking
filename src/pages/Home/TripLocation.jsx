@@ -11,7 +11,7 @@ const TripLocation = () => {
 	return (
 		<>
 			<section className="hero-slider-section">
-				<div className="slider-box lg:w-[1280px] md:w-[768px] sm:w-[425px] mx-auto">
+				<div className="slider-box lg:w-[1280px] md:w-full sm:w-full mx-auto">
 					<Swiper
 						modules={[Autoplay]}
 						autoplay={{ delay: 5000 }}

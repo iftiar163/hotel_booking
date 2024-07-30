@@ -1,9 +1,9 @@
 const WhyChooseUs = () => {
 	return (
 		<>
-			<section className="why-choose-us">
+			<section className="why-choose-us overflow-x-hidden">
 				{/* Why Choose Heading */}
-				<div className="why-choose-heading lg:w-[1280px] md:w-[768px] sm:w-[425px] mx-auto flex flex-col justify-center items-center gap-3">
+				<div className="why-choose-heading lg:w-[1280px] md:w-full sm:w-full mx-auto flex flex-col justify-center items-center gap-3">
 					<h2>Why You Should Choose Us</h2>
 					<p>
 						You should choose us because we provide the best accommodation and
@@ -11,9 +11,9 @@ const WhyChooseUs = () => {
 					</p>
 				</div>
 				{/* Why Choose Content */}
-				<div className="why-choose-content my-5 lg:w-[1280px] md:w-[768px] sm:w-[425px] mx-auto flex lg:flex-row md:flex-col sm:flex-col">
+				<div className="why-choose-content my-5 lg:w-[1280px] md:w-full sm:w-full mx-auto grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1">
 					{/* Left Container */}
-					<div className="left-container w-1/2 flex flex-col gap-7">
+					<div className="left-container grid grid-cols-1 justify-start items-center my-14 gap-y-7">
 						{/* Box One */}
 						<div className="content-box flex flex-col justify-start items-start gap-3">
 							<h5>01</h5>
@@ -43,9 +43,9 @@ const WhyChooseUs = () => {
 						</div>
 					</div>
 					{/* Right Container */}
-					<div className="right-container w-1/2">
-						<div className="right-content-wrapper ">
-							<div className="main-image flex justify-end items-end">
+					<div className="right-container">
+						<div className="right-content-wrapper">
+							<div className="main-image flex lg:justify-end md:justify-center sm:justify-end items-end">
 								<img
 									src="https://res.cloudinary.com/dwrvexxbo/image/upload/v1721063066/Hotel_trividia/e8ahrkzr5rcvh4ldvodz.jpg"
 									alt=""
@@ -57,7 +57,7 @@ const WhyChooseUs = () => {
 									alt=""
 								/>
 							</div>
-							<div className="review-box-one w-[240px] bg-white p-3 flex justify-start items-center gap-4">
+							<div className="review-box-one lg:w-[240px] md:w-[240px] sm:w-[180px] bg-white p-3 flex justify-start items-center gap-4">
 								<div className="avater-image">
 									<img
 										src="https://res.cloudinary.com/dwrvexxbo/image/upload/v1721237081/Hotel_trividia/hwgnctu66uzxwo3xrzpz.png"
@@ -71,7 +71,7 @@ const WhyChooseUs = () => {
 									</p>
 								</div>
 							</div>
-							<div className="review-box-two w-[240px] bg-white p-3 flex justify-start items-center gap-4">
+							<div className="review-box-two lg:w-[240px] md:w-[240px] sm:w-[180px] bg-white p-3 flex justify-start items-center gap-4">
 								<div className="avater-image">
 									<img
 										src="https://res.cloudinary.com/dwrvexxbo/image/upload/v1721237081/Hotel_trividia/hwgnctu66uzxwo3xrzpz.png"
@@ -85,7 +85,7 @@ const WhyChooseUs = () => {
 									</p>
 								</div>
 							</div>
-							<div className="review-box-three w-[240px] bg-white p-3 flex justify-start items-center gap-4">
+							<div className="review-box-three lg:w-[240px] md:w-[240px] sm:w-[180px] bg-white p-3 flex justify-start items-center gap-4">
 								<div className="avater-image">
 									<img
 										src="https://res.cloudinary.com/dwrvexxbo/image/upload/v1721237081/Hotel_trividia/hwgnctu66uzxwo3xrzpz.png"

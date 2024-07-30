@@ -9,7 +9,7 @@ const SearchForms = () => {
 		<>
 			{/* Search Form Elements */}
 
-			<section className="search-form-section mx-4">
+			<section className="search-form-section">
 				<div className="search-form-wrapper lg:w-[1280px] md:w-[768px] sm:w-[425px] mx-auto">
 					<div className="search-heading-wrapper flex lg:flex-row md:flex-row sm:flex-col gap-5 justify-between items-center">
 						<div className="search-head flex justify-between items-center gap-5">
