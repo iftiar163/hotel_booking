@@ -3,7 +3,7 @@ header {
 	background: var(--background-color);
 }
 
-.logo img {
+.logo a img {
 	width: 30%;
 }
 
@@ -11,4 +11,21 @@ header {
 	padding: 10px 24px;
 	border-radius: 16px;
 	background: var(--secondary-color);
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 1024px) {
+	.logo a img {
+		width: 55%;
+	}
+}
+
+/* Mobile Device */
+@media screen and (max-width: 600px) {
+	.logo a img {
+		width: 75%;
+	}
+	.nav-button a svg {
+		height: 45px;
+	}
 }
